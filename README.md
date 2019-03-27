@@ -1,2 +1,2 @@
-# badges_rails
-Add gamification to your app
+# Gamification Badges for Rails!
+

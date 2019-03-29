@@ -30,13 +30,15 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'rails', '~> 5.2.2', '>= 5.2.2.1'
 
-  spec.add_development_dependency 'pg'
-  spec.add_development_dependency 'rspec-rails'
-  spec.add_development_dependency 'rails-controller-testing' # for assert-template
   spec.add_development_dependency 'capybara'
+  spec.add_development_dependency 'factory_bot_rails'
+  spec.add_development_dependency 'faker'
+  spec.add_development_dependency 'pg'
+  spec.add_development_dependency 'puma'
+  spec.add_development_dependency 'rails-controller-testing' # for assert-template
+  spec.add_development_dependency 'rspec-rails'
+  spec.add_development_dependency 'simplecov'
   spec.add_development_dependency 'selenium-webdriver'
   spec.add_development_dependency 'webdrivers'
-  spec.add_development_dependency 'puma'
-  spec.add_development_dependency 'factory_bot_rails'
-  spec.add_development_dependency 'simplecov'
+
 end

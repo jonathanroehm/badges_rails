@@ -1,8 +1,10 @@
 # GamificationBadgesRails
-Short description and motivation.
+Add gamification badges to your rails application.
+
+Not yet stable.
 
 ## Usage
-How to use my plugin.
+Visit www.your_application_url.com/gamification_badges_rails/
 
 ## Installation
 Add this line to your application's Gemfile:
@@ -15,14 +17,16 @@ And then execute:
 ```bash
 $ bundle
 ```
+***
 
-Or install it yourself as:
-```bash
-$ gem install gamification_badges_rails
+## Installation
+1. In your application's `routes.rb` mount the engine:
+```ruby
+Rails.application.routes.draw do
+  mount GamificationBadgesRails::Engine => "/gamification_badges_rails"
+  ...
+end
 ```
 
-## Contributing
-Contribution directions go here.
-
-## License
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+2. Run migrations:
+... need installation generator / migration runner
